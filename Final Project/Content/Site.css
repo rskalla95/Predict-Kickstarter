@@ -1,0 +1,221 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #034752;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+.logo {
+    display: flex;
+    width: 60%;
+    padding: 50px 20% 0 20%;
+}
+
+.siteHeader {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    padding: 15px 20%;
+}
+
+.formDiv {
+    display: flex;
+    align-content: center;
+    width: 80%;
+    padding: 2% 10%;
+    color: white;
+    color: #29DE73;
+}
+
+.formBox {
+    width: 80%;
+    padding: 2%;
+    margin: 0 10%;
+    border-width: thick;
+    border: solid;
+    border-radius: 10px;
+    background-color: #2b2727;
+}
+
+.form-group {
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.formLabel {
+    display: inline-block;
+    width: 150px;
+    padding-left: 10px;
+    padding-right: 2%;
+    
+}
+
+.formResponse {
+    display: inline-block;
+    width: 370px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.submitButton {
+    background-color: #2b2727;
+    color: #29DE73;
+    border: solid;
+    border-color: #29DE73;
+    font-size: 20px;
+    font-weight: 500;
+    width: 40%;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 30%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+    .submitButton:hover {
+        background-color: #29DE73;
+        color: #2b2727;
+        border-color: #29DE73;
+    }
+
+* {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.buttonRow {
+    width: 50%;
+    padding: 0 25%;
+
+}
+
+.rowButton {
+    background-color: #2b2727;
+    color: #29DE73;
+    border: solid;
+    border-color: #29DE73;
+    font-size: 20px;
+    font-weight: 500;
+    width: 15%;
+}
+.rowButton:hover {
+    background-color: #29DE73;
+    color: #2b2727;
+    border-color: #29DE73;
+}
+
+.leftButton {
+    margin-left: 23%;
+    width: 25%;
+}
+
+.rightButton {
+    margin-left: 5%;
+}
+    *:before,
+    *:after {
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+    }
+
+.analytics {
+}
+
+#vizContainer {
+    width: 80%;
+    padding: 50px 10%;
+}
+
+.aboutUs {
+    width: 80%;
+    padding: 20px 10%;
+}
+
+.aboutTitle {
+    color: #29DE73;
+    font-size: 36px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.teamCard {
+    border-color: #29DE73;
+    border-width: 3px;
+    background-color: #2b2727;
+    color: white;
+}
+
+.aboutCard {
+    background-color: #2b2727;
+    color: white;
+    border: solid;
+    border-color: #29DE73;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.nav-link {
+    color: #29DE73;
+    border: solid;
+    border-color: #2b2727;
+    margin-bottom: 7px;
+}
+
+    .nav-link:hover {
+        color: #29DE73;
+        border: solid;
+        border-color: #29DE73;
+
+    }
+
+    .nav-link.active {
+        background-color: #29DE73 !important;
+        border: #29DE73;
+        color: #2b2727 !important;
+    }
+
+.footer {
+    color: white;
+    border-top: solid;
+    border-width: 1px;
+    border-color: #29DE73;
+    margin-top: 30px;
+    height: 50px;
+}
+
+.copyright {
+    align-content: center;
+    width: 17%;
+    padding: 30px 41.5% 0 41.5%;
+}
+
+.aboutDiv {
+    width: 90%;
+    padding: 0 5% 30px 5%;
+}
+
+.formLeft {
+    display: inline-block;
+    width: 44%;
+    padding-left: 10%;
+}
+
+.formRight {
+    display: inline-block;
+    width: 45%;
+}
+
+#resultsBox {
+    display: none;
+}
